@@ -1,0 +1,230 @@
+/* Global body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    animation: fadeIn 1.5s ease-in-out;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Color Palette Inspired by Korean Cuisine */
+:root {
+    --primary-red: #C62828;
+    --secondary-red: #FF5252;
+    --background-cream: #dcccb2;
+    --text-dark: #212121;
+    --accent-gold: #FFD700;
+}
+/* Navigation Styles */
+header {
+    background-color: var(--primary-red);  /* Updated to match the new color variable */
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo h1 {
+    font-family:'Gugi',arial,sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--accent-gold);  /* Updated to use accent-gold color */
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Form container styling */
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack the form items vertically */
+    align-items: center; /* Center all items horizontally */
+    gap: 20px; /* Add space between each form element */
+    margin: 20px auto;
+    max-width: 600px; /* Set a max width for better mobile display */
+}
+
+/* Individual form box styling */
+.form-box {
+    width: 100%; /* Ensure form elements take full width */
+    text-align: center;
+}
+
+/* Input, textarea, and select styling */
+input, textarea, select {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%; /* Full width for mobile responsiveness */
+    max-width: 400px; /* Set a maximum width to avoid large inputs */
+    border: 2px solid #cbfaff;
+    border-radius: 5px;
+    background-color: #1f3b52b7; /* Dark purple */
+    color: #fff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #d3d3d3;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Dropdown menu styling */
+select {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the select box */
+}
+
+/* Submit button styling */
+button {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px; /* Ensure the button is not too wide */
+}
+
+button:hover {
+    background-color: #e55347;
+}
+
+/* Delivery boy static image (no animation) */
+.delivery-boy {
+    position: absolute;
+    bottom: 30px; /* Position at the bottom */
+    left: 10%; /* Adjust the left position as needed */
+    width: 80px;
+    height: 80px;
+    background-image: url('https://example.com/delivery-boy.png'); /* Replace with your delivery boy image */
+    background-size: cover;
+}
+
+/* Footer */
+footer {
+    background-color: var(--text-dark);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-content div {
+    flex: 1;
+}
+
+.social-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.newsletter button {
+    background-color: var(--secondary-red);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish-grid {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 5rem 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
