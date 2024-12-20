@@ -1,7 +1,7 @@
 /* Global body styling */
 body {
-    font-family: Arial, sans-serif;
-    background: url('https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg') no-repeat center center fixed;
+    font-family: 'Nanum Gothic', Arial,sans-serif;
+    background: url('top-view-raw-rice-inside-bag-plate-grey-surface.jpg.crdownload') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     margin: 0;
@@ -38,7 +38,6 @@ header {
 }
 
 .logo h1 {
-    font-family:'Gugi',arial,sans-serif;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;

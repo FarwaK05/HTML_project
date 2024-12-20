@@ -1,6 +1,6 @@
 /* Reset and Base Styles */
 * {
-    font-family: 'Nanum Gothic', Arial;
+    font-family: 'Nanum Gothic', Arial,sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+ 
     
 }
 
@@ -35,7 +36,6 @@ header {
 }
 
 .logo h1 {
-    font-family:'Gugi',arial,sans-serif;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;

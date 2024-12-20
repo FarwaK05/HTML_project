@@ -52,7 +52,6 @@ header {
 }
 
 .logo h1 {
-    font-family:'Gugi',arial,sans-serif;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -93,7 +92,7 @@ header {
 }
 h2 
 {
-    font-family:'Gugi',arial,sans-serif;
+   
     color:#f27242;
     text-align:center;
 }
