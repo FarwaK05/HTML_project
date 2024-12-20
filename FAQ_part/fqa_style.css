@@ -82,7 +82,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background: rgba(224, 131, 103, 0.624);
+    background: rgba(36, 30, 26, 0.827);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -98,6 +98,7 @@ main {
 }
 
 .faq-item p {
+    color: #efe8e8;
     font-size: 18px;
     margin: 0;
     padding-left: 1rem;
@@ -127,6 +128,31 @@ footer {
 
 .footer-content div {
     flex: 1;
+}
+/* soical media links */
+.social-links {
+    font-family: Arial, sans-serif;
+}
+
+.social-links h3 {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #e1d8d8;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #007bff;
 }
 
 .social-links a {

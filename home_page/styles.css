@@ -138,6 +138,31 @@ footer {
 .footer-content div {
     flex: 1;
 }
+/* soical media links */
+.social-links {
+    font-family: Arial, sans-serif;
+}
+
+.social-links h3 {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #e1d8d8;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
 
 .social-links a {
     display: block;

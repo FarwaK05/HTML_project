@@ -1,6 +1,12 @@
 /* Global body styling */
-body {
+* {
     font-family: 'Nanum Gothic', Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
     background: url('top-view-raw-rice-inside-bag-plate-grey-surface.jpg.crdownload') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
@@ -87,13 +93,13 @@ header {
     margin-left: auto;  /* Push form to the right */
     margin-right: 50px; /* Space from right edge */
     margin-top: 50px;   /* Space from top */
-    max-width: 900px;   /* Adjust width as needed */
+    max-width: 980px;   /* Adjust width as needed */
     padding: 50px;
 }
 
 .form-box {
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 /* Individual form box styling */
@@ -127,9 +133,21 @@ select {
     width: 100%;
     max-width: 400px; /* Set a maximum width for the select box */
 }
+.form-box button {
+    background-color: var(--primary-red); /* Using the primary red for consistency */
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Slightly larger font */
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px; /* Adjusting the max-width to ensure it's not too wide */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 /* Submit button styling */
-button {
+.form-box button {
     background-color: #ff6347;
     border: none;
     padding: 10px 20px;
@@ -141,24 +159,12 @@ button {
     max-width: 400px; /* Ensure the button is not too wide */
 }
 
-button:hover {
+.form-box button:hover {
     background-color: #e55347;
-}
-
-/* Delivery boy static image (no animation) */
-.delivery-boy {
-    position: absolute;
-    bottom: 30px; /* Position at the bottom */
-    left: 10%; /* Adjust the left position as needed */
-    width: 80px;
-    height: 80px;
-    background-image: url('https://example.com/delivery-boy.png'); /* Replace with your delivery boy image */
-    background-size: cover;
 }
 
 /* Footer */
 footer {
-    
     background-color: var(--text-dark);
     color: white;
     padding: 3rem 2rem;
@@ -172,6 +178,31 @@ footer {
 
 .footer-content div {
     flex: 1;
+}
+/* soical media links */
+.social-links {
+    font-family: Arial, sans-serif;
+}
+
+.social-links h3 {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #e1d8d8;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #007bff;
 }
 
 .social-links a {
@@ -189,6 +220,19 @@ footer {
     flex-grow: 1;
     padding: 0.5rem;
 }
+footer .newsletter button {
+    background-color: var(--secondary-red);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px; /* Optional for rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+footer .newsletter button:hover {
+    transform: scale(1.05);
+}
 
 .newsletter button {
     background-color: var(--secondary-red);
@@ -203,7 +247,6 @@ footer {
     padding-top: 1rem;
     border-top: 1px solid #444;
 }
-
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
