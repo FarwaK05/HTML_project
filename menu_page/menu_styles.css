@@ -175,6 +175,7 @@ section h2
 
 /* Footer */
 footer {
+    text-align:justify;
     background-color: var(--text-dark);
     color: white;
     padding: 3rem 2rem;
@@ -243,13 +244,5 @@ footer {
 
     .footer-content {
         flex-direction: column;
-    }
-
-    .hero {
-        padding: 5rem 1rem;
-    }
-
-    .hero h2 {
-        font-size: 2rem;
     }
 }
