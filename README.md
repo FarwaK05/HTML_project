@@ -1,6 +1,5 @@
-Here's a sample README.md file for your website project:
-
 # Korean-Inspired Website  
+## Name of website: Korean Spice Tales
 
 This is a Korean-inspired website that combines a visually appealing design with a modern and responsive layout. The site uses a cohesive color palette, clean typography, and interactive elements to enhance the user experience.  
 
@@ -9,8 +8,10 @@ This is a Korean-inspired website that combines a visually appealing design with
 - **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices.  
 - **Navigation Bar**: Includes a sticky header with smooth hover animations.  
 - **About Section**: Provides an overview with bold typography and a clean layout.  
-- **Team Section**: Highlights team members in an organized and visually appealing format.  
-- **Footer**: Features social media links, newsletter subscription, and copyright information.  
+- **Typography and Animations**:
+Utilizes modern fonts like Nanum Gothic and Gugi, combined with subtle animations (e.g., hover effects) for an engaging user experience.
+**Footer Section**:
+Includes contact information, social media links, a newsletter subscription form, and copyright details, ensuring all essential user needs are addressed.
 
 ## Technologies Used  
 
@@ -29,26 +30,26 @@ Inspired by Korean cuisine, the website uses the following custom color palette:
 
 ## File Structure  
 
-```plaintext
-📁 Project Root  
-├── index.html  
-├── style.css  
-├── /images  
-│   └── image.png  
-├── /assets  
-│   └── Fonts and other resources  
-└── README.md
+HTML_project/
+│
+├── Checkout Page/
+│   └── (Files for checkout page go here)
+├── FAQ_part/
+│   └── (Files for FAQ page go here)
+├── about_us/
+│   └── (Files for About Us page go here)
+├── home_page/
+│   └── (Files for Home page go here)
+├── menu_page/
+│   └── (Files for Menu page go here)
+├── README.md
 
 How to Use
 
 1. Clone the repository:
-
-git clone https://github.com/YourUsername/YourRepositoryName.git
-
-
+git clone
+https://github.com/FarwaK05/HTML_project.git
 2. Open the index.html file in any web browser to view the website.
-
-
 
 Live Demo
 
@@ -56,15 +57,8 @@ Check out the live version of the website here: Live Demo
 
 Author
 
-Created by [Your Name]. Feel free to reach out for feedback or collaboration!
-
-License
-
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
+Created by Farwa Khalid,Hafsa Murtaza and Muhammad Zain. Feel free to reach out for feedback or collaboration!
 
 Contributions
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
-
-Replace placeholders like `YourUsername` and `YourRepositoryName` with your actual GitHub username and repository name. Let me know if you need help setting up the repository or deploying the site on GitHub Pages!
-
