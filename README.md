@@ -31,12 +31,17 @@ Inspired by Korean cuisine, the website uses the following custom color palette:
 ## File Structure  
 
 HTML_project/
-│
+|
+
 ├── Checkout Page/
+
 │   └── (Files for checkout page go here)
+
 ├── FAQ_part/
+
 │   └── (Files for FAQ page go here)
 ├── about_us/
+
 │   └── (Files for About Us page go here)
 ├── home_page/
 │   └── (Files for Home page go here)
