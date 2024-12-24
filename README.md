@@ -1,4 +1,5 @@
-# Korean-Inspired Website  
+# Korean-Inspired Website 
+
 ## Name of website: Korean Spice Tales
 
 This is a Korean-inspired website that combines a visually appealing design with a modern and responsive layout. The site uses a cohesive color palette, clean typography, and interactive elements to enhance the user experience.  
@@ -39,6 +40,7 @@ Created by:
 
 Farwa Khalid
 https://github.com/FarwaK05
+
 Hafsa Murtaza 
 https://github.com/HafsaMurtaza2024
 
