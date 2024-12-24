@@ -35,7 +35,17 @@ Inspired by Korean cuisine, the website uses the following custom color palette:
 
 Author
 
-Created by Farwa Khalid,Hafsa Murtaza and Muhammad Zain. Feel free to reach out for feedback or collaboration!
+Created by:
+
+Farwa Khalid
+https://github.com/FarwaK05
+Hafsa Murtaza 
+https://github.com/HafsaMurtaza2024
+
+Muhammad Zain
+https://github.com/Muhammad-Zain-274
+
+Feel free to reach out for feedback or collaboration!
 
 Contributions
 
