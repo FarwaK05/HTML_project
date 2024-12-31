@@ -42,8 +42,7 @@ body {
 
 /* Navigation Styles */
 header {
-    background-color: var(--primary-red);  /* Updated to match the new color variable */
-    color: white;
+    background-color: var(--primary-red); 
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -52,6 +51,7 @@ header {
 }
 
 .logo h1 {
+    color: rgb(229, 222, 222);
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -65,7 +65,7 @@ header {
 }
 
 .nav-links li {
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 .nav-links a {
@@ -83,7 +83,7 @@ header {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: var(--accent-gold);  /* Updated to use accent-gold color */
+    background-color: var(--accent-gold);  
     transition: width 0.3s ease;
 }
 
