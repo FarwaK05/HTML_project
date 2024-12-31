@@ -209,11 +209,6 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
-    .dish-grid {
-        flex-direction: column;
-    }
-
     .footer-content {
         flex-direction: column;
     }
