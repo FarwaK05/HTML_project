@@ -15,7 +15,7 @@ body {
     padding: 0;
     color: #0f0e0e;
     line-height: 1.6;
-   
+    animation: fadeIn 1.5s ease-in-out;
 }
 /* Color Palette Inspired by Korean Cuisine */
 :root {
